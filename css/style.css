@@ -13,7 +13,7 @@ fieldset {
 }
 
 h1 {
-	background: #415058;
+	background: #242F42;
 	text-align: center;
 	color: white;
 	padding: 1em;
@@ -22,20 +22,28 @@ h1 {
 h2 {
 	text-align: center;
 	margin-top: .5em;
-	color: #415058;
+	color: #242F42;
 }
 
 .top {
 	text-align: center;
 	padding-bottom: 2em;
 	border-bottom: 5px solid #000;
-	margin-bottom: -18px;
 	color: #D3D3D3;
+	margin-bottom: 2px;
 }
 
-h3 {
+fieldset {
 	border-top: 2px solid;
-	padding-top: 1em;
+}
+
+.legnd {
+	margin-top: 1em;
+	font-size: 1.5em;
+	text-align: left;
+	margin-bottom: 1em;
+	font-weight: bold;
+	color: #242F42;
 }
 
 form {
@@ -87,7 +95,7 @@ input::placeholder {
 	width: 100%;
 }
 
-legend {
+p {
 	text-align: left;
 }
 
